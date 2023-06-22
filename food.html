@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/food.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" data-bs-theme="light">
+    <div class="container-fluid">
+      <a class="" href="#">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recipes">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="mx-3">
+          <a class="nav-link" href="#"><i class="text-light fs-3 bi bi-cart"></i></a>
+          <span class="cursor-pointer user">Login</span>
+          <img src="/media/abstract-user-flat-3.svg" alt="" class="profile-pic">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid px-5" id="home">
+    <p class="fs-2">Good <span class="fs-4 greet"></span></p>
+    <div class="search">
+      <input type="text" class="search__input" placeholder="Search for recipe">
+      <button class="border-none">
+        <img src="media/search-btn.svg" alt="" class="search_icon">
+      </button>
+    </div>
+    <br><br>
+    <div class="row main-cards" id="recipes">
+
+    </div>
+    <br><br><br><br><br><br>
+    <div class="row small-cards px-md-5">
+      <h2>Categories</h2>
+      <br><br><br>
+    </div>
+    <br><br><br><br><br>
+    <div class="row small-card-recommended">
+      <h4>Your special<br>recommendations</h4>
+
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="container-fluid" id="contact">
+    <h1>Contact</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <iframe class="m-4 rounded-1 responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.709974792769!2d4.318148515015481!3d52.066804377469126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e08c437ddb%3A0x89fe6d929d051f84!2sLeeghwaterplein%2072%2C%20Den%20Haag!5e0!3m2!1snl!2snl!4v1679428259157!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="col-md-6 text-dark"> <!-- Dit is de form waar je je contactgegevens kunt invullen -->
+        <div class="m-4">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"><i class="bi bi-envelope-at-fill text-dark"></i> Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"><i class="bi bi-patch-question"></i> Youre question</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="Telephone" class="form-label"><i class="bi bi-telephone"></i> Telephone number</label> <br>
+          <input type="number" name="Telephone" class="form-control" id="exampleFormControlInput1" placeholder="+31623018197">
+        </div>
+        <button class="btn btn-primary">Send Form</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="js/food.js"></script>
+</body>
+
+</html>

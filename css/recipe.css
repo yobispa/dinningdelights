@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    
+}
+
+.bi{
+    color: white;
+}
+
+.bi-profile{
+    color: white;
+    margin-top: 3px;
+   
+}
+
+.h1vis{
+    color: white;
+   
+}
+
+.checked {
+    color: orange;
+  }
+
+  .visoven{
+    height: 5%;
+  }
+
+  .card{
+    margin-bottom: 10px;
+}

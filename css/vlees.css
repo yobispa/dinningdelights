@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.diagonal-split-background{
+    height: 100vh;
+    background-color: black;
+  }
+
+.btn1 {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.style-card {
+    border-radius: 30px;
+    margin: auto;
+    background-image: -webkit-linear-gradient(45deg, #BABABA 90%, #ffc107 10%);
+}
+
+.test {
+    height: 100vh;
+}
+.responsive {
+    height: 315px;
+    width: 560px;
+}
+
+.test-nmr {
+    height: 70vh;
+}
+
+.off-set {
+    border-radius: 50px;
+    z-index: 1;
+    width: 30vw;
+}
+
+
+.card-border {
+    border-radius: 5px;
+}
+
+.display-none {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .responsive {
+        height: 115px;
+        width: 260px;
+    }
+}
